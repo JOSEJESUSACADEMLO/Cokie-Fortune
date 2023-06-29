@@ -1,7 +1,7 @@
 const Author =({authorData})=>{
 
   return (
-      <div className="fortune-cokie">
+      <div className="fortune-cokie2">
   
           <h3>{authorData.author}</h3>
           

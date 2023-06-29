@@ -2,13 +2,13 @@ import './App.css'
 import Cokie from './components/Cokie'
 import phrases from './data/phrases.json'
 import { useState } from 'react'
-
+import Author from "./components/Author"
 
 
 function App() {
-  const backs = ['url(./fondo1.jpg)', 'url(./fondo2.jpg)', 'url(./fondo3.jpg)', 'url(./fondo4.jpg)' ]  
+  const backs = ['url(./fondo1.png)', 'url(./fondo2.png)', 'url(./fondo3.png)', 'url(./fondo4.png)' ]  
   const [index, setIndex]= useState(0)
- // const [index2, setIndex2]= useState2(0)
+
 
   const changePhrase =() =>{
    
@@ -26,9 +26,8 @@ return(
 
   
 <button className="Boton" onClick={changePhrase}>
- Nueva Frase
+ Probar Suerte
 </button>
-
 
 </div>
 )  

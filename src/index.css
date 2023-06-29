@@ -9,33 +9,43 @@
 .App{
 display:flex;
 width:  100%vh;
-height: 658px;
+height: 600px;
 flex-direction: column;
 justify-content: center;
 align-items: center;
 background-size: 100% 100%;
 background-repeat: no-repeat;
-
+overflow-y: hidden;
 }
 
 .fortune-cokie{
+
+  
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  background-color: beige;
+  width: 700px;
+  
+  /*background-color: beige;*/
+  background-image: url('./hoja.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   align-items: center;
-  padding: 10px;
-  border-radius: 10px;
+  
+  border-radius: 10px; 
   padding: 15px;
   text-align: center;
+
+  overflow: hidden;
 }
 
 .title{
-  font-size:30px;
-  color:rgb(255, 0, 153);
-  margin-bottom: 50px;
-  margin-top: 10px;
+  font-size:20px;
+  color:rgb(242, 241, 241);
+  margin-bottom: 30px;
+  margin-top: 1px;
   font-family: 'Vina Sans', cursive;
+  -webkit-text-stroke: 1px orange;
 }
 
 .Boton{
@@ -43,23 +53,29 @@ background-repeat: no-repeat;
   display: flex;
   width: 110px;
   height: 30px;
-  border-radius: 5px;
+  border-radius: 5px ;
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  background-color: transparent;
+  border-color: brown;
+
 }
 
 .fortune-cokie > h3{
   margin-top: 15px;
-  color:rgb(47, 0, 255);
-  font-family: 'Vina Sans', cursive;
+  color:rgb(244, 131, 44);
+  font-family: 'Allura', cursive;
   font-size: 14px;
 
 }
 
 .fortune-cokie >h2{
+  width: 500px;  
   font-family: 'Allura', cursive;
   font-size: 15px;
+  overflow: hidden;
+  
 
 }
 
@@ -67,7 +83,7 @@ background-repeat: no-repeat;
 
   h1{
     font-size:25px;
-    color:blue;
+    color:rgb(255, 0, 0);
     margin-bottom: 20px;
     font-family: 'Vina Sans', cursive;
   }
@@ -100,7 +116,7 @@ background-repeat: no-repeat;
   }
   .fortune-cokie > h3{
     margin-top: 15px;
-    color:blue;
+    color: blueviolet;
     font-family: 'Allura', cursive;
     font-size: 10px;
   
@@ -108,7 +124,9 @@ background-repeat: no-repeat;
   
   .fortune-cokie >h2{
     font-family: 'Allura', cursive;
-    font-size: 14px;
+    font-size: 10px;
+    color: blueviolet;
+
   
   }
 

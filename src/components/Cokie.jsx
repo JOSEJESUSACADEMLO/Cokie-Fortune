@@ -3,15 +3,16 @@ import Author from "./Author"
 const Cokie =({cokieData})=>{
 
           
-  return (
+  return ( 
       
       <div className="fortune-cokie">
             
           <h2>{cokieData.phrase}  </h2>
          
-         <Author authorData={cokieData}/>
+       {/*<Author authorData={cokieData}/>*/} 
          
       </div>
+      
   )
 }
 
