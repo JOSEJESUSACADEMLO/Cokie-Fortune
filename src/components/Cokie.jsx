@@ -9,7 +9,7 @@ const Cokie =({cokieData})=>{
             
           <h2>{cokieData.phrase}  </h2>
          
-       {/*<Author authorData={cokieData}/>*/} 
+       <Author authorData={cokieData}/>
          
       </div>
       
